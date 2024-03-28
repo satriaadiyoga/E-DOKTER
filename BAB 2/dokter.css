@@ -1,0 +1,94 @@
+body, h1, h2, h3, h4, h5, h6, p, ul {
+        margin: 0;
+        padding: 0;
+    }
+    
+body {
+    height: max-content;
+    font-family: Arial, sans-serif;
+    background-image: url("../ASSET/wall2.jpeg");
+    background-size:cover;
+    }
+    
+/* Header Styles */
+header {
+    font-size: 20px;
+    background-color: #273470;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s; /* Added transition for smoother color change */
+}
+
+nav ul li a:hover {
+    color: #ccc; /* Change color on hover */
+}
+
+.btn:nav ul li a{
+    background-color: #ffffff;
+    color: #192041;
+    border: #192041 5px solid;
+}
+    
+#hero {
+    padding: 500px 0;
+    text-align: center;
+}
+    
+#hero h2 {
+    color: #ffffff;
+    font-size: 100px;
+    margin-bottom: 20px;
+}
+    
+#hero p {
+    color: #ffffff;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+    
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #192041;
+    border: #3a4269 5px solid;
+    text-decoration: none;
+    border-radius: 15px;
+}
+    
+.btn:hover {
+    background-color: #3a4269;
+    color: #ffffff;
+    border: #192041 5px solid;
+}
+    
+footer {
+    background-color: #192041;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+img{
+    margin-top: -10px;
+}
+
+footer a{
+    color: #cc0000;
+}

@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("../ASSET/forest.jpeg");
+    background-size:cover;
+}
+
+/* Header Styles */
+header {
+    font-size: 20px;
+    background-color: #273470;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.3s; /* Added transition for smoother color change */
+}
+
+nav ul li a:hover {
+    color: #ccc; /* Change color on hover */
+}
+
+
+section{
+    color: #ffffff;
+}
+/* Login Section Styles */
+section#login {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+section#login h2 {
+    color: #ffffff;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input {
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #401a1a;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #401a1a;
+    color: #ffffff;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #273470;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+section{
+    font-size: 20px;
+}
+
+footer a{
+    color: #cc0000;
+}
